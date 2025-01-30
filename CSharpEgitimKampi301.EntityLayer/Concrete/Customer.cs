@@ -8,6 +8,7 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
 {
     public class Customer
     {
+        public object customerName;
 
         public int CustomerId { get; set; }
         public string CustomerName { get; set; }
